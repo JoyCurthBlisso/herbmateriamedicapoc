@@ -12,7 +12,7 @@ if (process.env.HERBDB_URL) {
 		host: 'localhost',
 		user: 'root',
 		password: 'root',
-		database: 'herb_materia_medica_db'
+		database: 'herb_db'
 	})
 };
 

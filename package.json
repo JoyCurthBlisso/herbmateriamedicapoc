@@ -24,6 +24,7 @@
     "mysql": "^2.15.0"
   },
   "devDependencies": {
-    "gulp-handlebars": "^5.0.2"
+    "gulp-handlebars": "^5.0.2",
+    "ws": "3.3.2"
   }
 }
