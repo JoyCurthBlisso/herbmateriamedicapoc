@@ -5,6 +5,11 @@ var router = express.Router();
 
 var herb = require('../models/herb.js');
 
+router.get("/", function(req, res) {
+  res.redirect("/herb");
+});
+
+
 router.get('/', function(req, res) {
   herb.selectAll(function(data) {
     var hbsObject = {
@@ -32,6 +37,7 @@ router.put('/herb/:id', function(req, res) {
     picked: true
   }, condition, function(data) {
     res.redirect('/');
+    // res.sendStatus(200);
   });
 });
 

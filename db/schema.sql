@@ -1,5 +1,5 @@
-CREATE DATABASE herb_materia_medica_db;
-USE herb_materia_medica_db;
+CREATE DATABASE herb_db;
+USE herb_db;
 
 
 CREATE TABLE herb

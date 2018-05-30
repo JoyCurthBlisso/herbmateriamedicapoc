@@ -22,4 +22,4 @@ var herb = {
     }
   };
 
-module.exports = orm;
+module.exports = herb;
